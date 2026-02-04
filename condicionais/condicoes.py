@@ -19,5 +19,7 @@ print('carro novo'if tempo<=3 else 'carro velho')
 nome = input('Qual seu nome? ')
 if nome == 'Kevin':
     print('A gente tem o mesmo nome')
+elif nome == 'Pablo':
+    print('Você tem um nome bacana')
 else:
     print('Nome bacana! ')
