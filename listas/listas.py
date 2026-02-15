@@ -43,3 +43,4 @@ for c, d in enumerate(v):
 
 for i in v:
     print(f'Achei o valor {i}')
+
