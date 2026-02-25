@@ -37,4 +37,4 @@ choices = get_choices()
 result = check_win(choices["player"], choices["computer"])
 print(result)
 
-# 44:02 video
+# 44:02 video 
