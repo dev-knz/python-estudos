@@ -13,7 +13,7 @@ lista.append(n1)
 lista.append(n2)
 lista.append(n3)
 
-lst = sorted(lista, reverse=False)
+lst = sorted(lista, reverse=True)
 for i in lst:
     print(i)
 
