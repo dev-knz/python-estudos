@@ -5,3 +5,11 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
+cont = 0
+for i in range(5):
+    n = int(input())
+
+    if i % 2 == 0:
+        cont += 1
+    
+print(f'{cont} valores pares')
