@@ -5,18 +5,20 @@ Escreva a sua solução aqui
 Code your solution here
 Escriba su solución aquí
 '''
-lista = list()
 
-n1, n2, n3 = map(int, input().split())
+x = int(input())
+y = int(input())
 
-lista.append(n1)
-lista.append(n2)
-lista.append(n3)
+if x > y:
+    maior = x
+    menor = y
+else:
+    maior = y
+    menor = x
+soma = 0
 
-lst = sorted(lista, reverse=True)
-for i in lst:
-    print(i)
+for i in range(menor + 1, maior):
+    if i % 2 != 0:
+        soma += i
 
-print()
-for i in lista:
-    print(i)
+print(soma)
