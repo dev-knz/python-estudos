@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
+qntd, mult = input().split()
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+qntd = int(qntd)
+mult = int(mult)
+
+for i in range(qntd):
+    print(mult, end=' ')
+    mult *= 2

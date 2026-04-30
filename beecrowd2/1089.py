@@ -1,7 +1,16 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+lista = input().split()
+media = 0
+
+for i in range(len(lista)):
+    lista[i] = int(lista[i])
+    media += lista[i]
+
+media = media // n
+contagem = 0
+
+for i in range(len(lista)):
+    if lista[i] > media:
+        contagem += 1
+print(contagem)
