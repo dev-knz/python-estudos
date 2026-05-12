@@ -1,7 +1,20 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+minado = list()
+
+for i in range(n):
+    minado.append(int(input()))
+
+mina = list()
+for i in range(n):
+    if i == 0:
+        mina.append(minado[i] + minado[i+1]) 
+    elif i == (n-1):
+        mina.append(minado[i] + minado[i-1])
+    else:
+        mina.append(minado[i-1] + minado[i] + minado[i+1])
+
+for i in range(len(mina)):
+    print(mina[i])
+        
+

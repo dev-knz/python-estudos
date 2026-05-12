@@ -1,7 +1,11 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+entrada = input().split()
+lista = list()
+
+for i in range(n):
+    lista.append(int(entrada[i]))
+fator = int(input())
+
+for i in range(n):
+    print(lista[i] * fator, end=' ')
