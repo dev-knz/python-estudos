@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
+n, x = input().split()
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+n = int(n)
+x = int(x)
+
+for i in range(n):
+    print(x, end=' ')
+    x = x * 2

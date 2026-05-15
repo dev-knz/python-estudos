@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+lista = list()
+for i in range(n):
+    lista.append(int(input()))
+
+for i in range(n-1, -1, -1):
+    print(lista[i], end=' ')

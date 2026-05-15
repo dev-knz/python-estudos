@@ -1,7 +1,19 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+tabuleiro = []
+for i in range(n):
+    tabuleiro.append(int(input()))
+    
+for i in range(n):
+    bombas = 0
+    
+    if i == 0:
+        bombas = tabuleiro[i] + tabuleiro[i+1]
+    elif i == (n-1):
+        bombas = tabuleiro[i-1] + tabuleiro[i]
+    else:
+        bombas = tabuleiro[i-1] + tabuleiro[i] + tabuleiro[i+1]
+        
+    print(bombas)
+    
+        
