@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
 '''
 Escreva a sua solução aqui
@@ -14,4 +14,5 @@ def contar(lista, fator):
     return contagem
 
 print(contar(['a', 'b', 'a'], 'a'))
+
 

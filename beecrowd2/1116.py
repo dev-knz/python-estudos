@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 '''
 Escreva a sua solução aqui
@@ -13,3 +12,4 @@ def soma_lista(number):
     return soma
 
 print(soma_lista([10,20,30]))
+
