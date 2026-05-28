@@ -1,7 +1,15 @@
-# -*- coding: utf-8 -*-
+n = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+matriz = []
+for i in range(n):
+    entrada = input().split()
+    linha = []
+    for i in range(n):
+        linha.append(int(entrada[i]))
+    matriz.append(linha)
+
+for i in range(n):
+    for j in range(n):
+        if i >= j:
+            print(matriz[i][j], end=' ')
+    print()
