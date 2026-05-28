@@ -1,18 +1,25 @@
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+
 n = int(input())
 
 entrada = input().split()
 matriz = []
 
-for i in range(len(entrada)):
+soma = 0
+for i in range(n):
     matriz.append(int(entrada[i]))
+    soma = soma + matriz[i]
 
-fator = int(input())
-achou = False
+soma = soma / n
 
-for i in range(len(matriz)):
-    if fator == matriz[i]:
-        achou = True
-if achou:
-    print('S')
-else:
-    print('N')
+media = 0
+for i in range(n):
+    if matriz[i] > soma:
+        media += 1
+print(media)

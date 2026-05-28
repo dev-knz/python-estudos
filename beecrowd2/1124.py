@@ -1,24 +1,19 @@
-entrada = input().split()
+# -*- coding: utf-8 -*-
 
-matriz = []
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
 
-for i in range(len(entrada)):
-    matriz.append(int(entrada[i]))
+def inverte(lista):
+    inicio, fim = 0, len(lista) - 1
 
-resultados = []
-for i in range(len(matriz)):
-    if i + 1 < len(matriz):
-        resultados.append(abs(matriz[i] - matriz[i+1]))
+    while inicio < fim:
+        lista[inicio], lista[fim] = lista[fim], lista[inicio]
 
-repetido = False
-for i in range(len(resultados)):
-    for j in range(len(resultados)):
-        if i < len(resultados) and j < len(resultados):
-            if resultados[i] == resultados[j] and j != i:
-                repetido = True
-                j = j - 1
+        inicio = inicio + 1
+        fim -= 1
+    return lista
 
-if repetido:
-    print('N')
-else:
-    print('H')
+print(inverte([1,2,3,4,5,6]))
