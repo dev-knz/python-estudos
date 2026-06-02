@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
+def area_triangulo(base, altura):
+    area = base * altura
+    return f'{area:.2f}'
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+
+base = float(input())
+altura = float(input())
+
+print(area_triangulo(base,altura))

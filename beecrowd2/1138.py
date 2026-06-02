@@ -1,7 +1,10 @@
-# -*- coding: utf-8 -*-
+def idade_em_dias(anos, meses, dias):
+    total = (anos * 365) + (meses * 30) + dias
+    return total
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+
+ano = int(input())
+mes = int(input())
+dia = int(input())
+
+print(idade_em_dias(ano,mes,dia))
