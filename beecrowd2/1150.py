@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
+lista = [1,2,3]
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+c = lista.copy()
+c.pop()
+
+print(lista, c)
