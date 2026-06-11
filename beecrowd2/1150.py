@@ -1,6 +1,14 @@
-lista = [1,2,3]
+v = int(input())
 
-c = lista.copy()
-c.pop()
+matriz = []
+contagem = 0
 
-print(lista, c)
+for i in range(3):
+    matriz.append(int(input()))
+    if v >= matriz[i]:
+        v -= matriz[i]
+        contagem += 1
+
+print(contagem) 
+
+
