@@ -1,7 +1,14 @@
-# -*- coding: utf-8 -*-
+def mediaAR(media, notaAP):
+    if notaAP >= media:
+        return True
+    return False
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+media, nota = input().split()
+
+media = float(media)
+nota = float(nota)
+
+if mediaAR(media, nota):
+    print('Aprovado')
+else:
+    print('Reprovado')

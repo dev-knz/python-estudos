@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
+def cel2far(celsius):
+    f = (9.0/5.0) * celsius + 32
+    return f
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+n = int(input())
+
+f = cel2far(n)
+print(f'{n:.2f} {f:.2f}')
