@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
+linha = list(map(int,input().split()))
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+print(linha)

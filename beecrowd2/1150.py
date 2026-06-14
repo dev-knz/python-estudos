@@ -1,7 +1,14 @@
-# -*- coding: utf-8 -*-
+v = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+matriz = []
+contagem = 0
+
+for i in range(3):
+    matriz.append(int(input()))
+    if v >= matriz[i]:
+        v -= matriz[i]
+        contagem += 1
+
+print(contagem) 
+
+
