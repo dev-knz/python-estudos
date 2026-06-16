@@ -1,3 +1,4 @@
+
 s, t = map(int, input().split())
 
 lista = []
