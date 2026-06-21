@@ -1,7 +1,13 @@
-# -*- coding: utf-8 -*-
+def primeiro_grau():
+    print('ax + b')
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+    n1 = int(input('valor a: '))
+    n2 = int(input('valor b: '))
+
+    n1 = n1 * -1
+    resposta = n1 / n2
+
+    return resposta
+print(primeiro_grau())
+
+    

@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
+def multiplicar():
+    n1 = int(input())
+    n2 = int(input())
 
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''
+    return n1 * n2
+
+print(multiplicar())
