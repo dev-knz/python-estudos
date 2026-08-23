@@ -26,3 +26,10 @@ obj.nome = "Kevin"
 obj.idade = 18
 
 print(obj.mensagem())
+
+# Resumindo:
+# POO aborda o famoso COMERN - Confiabilidade, Oportuno, Manutenivel, Estabilidade, Reutilizável e Natural
+
+# Abstração
+# Interface pública, vantagens: Maior legibilidade, padronização, simplificação e segurança.
+# Ignoramos informações desnecessárias para o escopo do objeto, também temos a abstração de processos
